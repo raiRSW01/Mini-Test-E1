@@ -25,6 +25,16 @@
         transform: Translate(0);
     }
 }
+@keyframes Animation2{
+    0%{
+        visibility: hidden;
+    }5%{
+        transform: translate(-250px, -250px); scale:(2.0);
+        opacity:0.5; visibility: visible;
+    }100%{
+        transform: translate(0); scale:(1); opacity:1;
+    }
+}
 .BoxE1{
     width: 800px; height: 500px;
     background-color: var(--warnaketiga); border: var(--warnakedua) solid 2px; border-radius: 20px 10px 20px 10px;
