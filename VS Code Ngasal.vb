@@ -1,3 +1,5 @@
+Console.WriteLine("Hello!")
+
 Module Program
     Sub Start_Program()
         Dim A As Integer = 10
